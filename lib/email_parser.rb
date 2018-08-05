@@ -15,6 +15,5 @@ class EmailParser
     email_arrays = @emails.split(/[,\s]/) # splitting the email when we see a comma or a space
 
     email_array.uniq #removing duplicates from an array
-
   end
 end
