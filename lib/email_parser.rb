@@ -12,7 +12,7 @@ class EmailParser
 
   def parse
     email_arrays = [] # here we will hold our parsed emails
-    email_arrays = @emails.split[/[,\s]/)
+    email_arrays = @emails.split[/[,\s]/) # splitting the email when we see a comma or a spaces
 
   end
 end
