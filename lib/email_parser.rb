@@ -5,8 +5,12 @@
 class EmailParser
   attr_accessor :email
 
+  @@split_emails = []
+
   def initialize
+
   end
+
 
   def parse
   end
