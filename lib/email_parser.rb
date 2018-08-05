@@ -5,10 +5,10 @@
 class EmailParser
   attr_accessor :email
 
-  @@split_emails = []
+  @@split_emails = [] # here we will keep our emails that are ready
 
   def initialize
-
+    @emails = emails
   end
 
 
